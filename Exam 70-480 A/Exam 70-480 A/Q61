@@ -1,0 +1,44 @@
+<style>
+        table{
+            border:3px solid black;
+            font-family:'Times New Roman', Times, serif;
+            text-align:center;
+        }
+        tr:nth-child(odd){
+            background-color:red;
+        }
+        tr td:nth-of-type(even) {
+            background-color: blue;
+        }
+    </style>
+    
+    
+    
+    <body>
+    
+        <table>
+            
+            <tr>
+                <th>name</th>
+                <th>class</th>
+                <th>price</th>
+            </tr>
+            <tr>
+                <td>a</td>
+                <td>3</td>
+                <td>$12</td>
+            </tr>
+            <tr>
+                <td>b</td>
+                <td>2</td>
+                <td>$33</td>
+            </tr>
+            
+            
+            
+            <tr>
+                <td>c</td>
+                <td>1</td>
+                <td>$44</td>
+            </tr>
+        </table>
